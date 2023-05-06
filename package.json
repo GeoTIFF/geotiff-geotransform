@@ -1,0 +1,35 @@
+{
+  "name": "geotiff-geotransform",
+  "version": "0.0.0",
+  "description": "Get Normalized GeoTransform for a GeoTIFF",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "format": "npx prettier --arrow-parens=avoid --print-width=160 --trailing-comma=none --write *.js *.mjs",
+    "setup": "cd data && ./setup.sh",
+    "test": "node test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeoTIFF/geotiff-geotransform.git"
+  },
+  "keywords": [
+    "gdal",
+    "geotiff",
+    "geotransform"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/GeoTIFF/geotiff-geotransform/issues"
+  },
+  "homepage": "https://github.com/GeoTIFF/geotiff-geotransform#readme",
+  "devDependencies": {
+    "flug": "^2.6.0",
+    "geotiff": "^2.0.7"
+  }
+}
