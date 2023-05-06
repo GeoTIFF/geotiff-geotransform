@@ -3,8 +3,9 @@ Get Normalized GeoTransform for a GeoTIFF
 
 ## purpose
 GeoTIFF files store geotranformation information in two different ways:
-  - 1 - ModelTiepointTag with ModelPixelScaleTag
-  - 2 - ModelTransformationTag
+  1. ModelTiepointTag with ModelPixelScaleTag
+  2. ModelTransformationTag
+
 This library normalizes this information into an array of 6 coefficients, like the one used by GDAL: https://gdal.org/tutorials/geotransforms_tut.html
 
 ## install
